@@ -12,7 +12,7 @@
   shape[0].position.set(0,5,0);
   scene.add(shape[0]);
   var light = new THREE.PointLight(0x404040);
-  light.position.set(0,250,0);
+  light.position.set(0,5,-10);
   scene.add(light);
   camera.position.set(3,4,10);
   function render(){
