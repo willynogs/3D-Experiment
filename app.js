@@ -5,7 +5,7 @@
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild( renderer.domElement );
   var shape = [];
-  geometry = new THREE.SphereGeometry(5, 40, 40);
+  geometry = new THREE.SphereGeometry(5, 20, 20);
   THREE.ImageUtils.crossOrigin = '';
   var material = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('group.jpg',THREE.SphericalRefractionMapping) } );
   shape[0] = new THREE.Mesh(geometry, material);
