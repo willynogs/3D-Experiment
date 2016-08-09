@@ -16,8 +16,8 @@
   camera.position.set(3,4,10);
   function render(){
     requestAnimationFrame( render );
-    shape[0].rotation.x += 0.0035;
-    shape[0].rotation.y -= 0.0035;
+    //shape[0].rotation.x += 0.0035;
+    shape[0].rotation.y += 0.0035;
 		renderer.render(scene, camera);
 	}
 	render();
