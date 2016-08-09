@@ -11,8 +11,7 @@
   shape[0] = new THREE.Mesh(geometry, material);
   shape[0].position.set(0,5,0);
   scene.add(shape[0]);
-  var light = new THREE.PointLight(0x404040);
-  light.position.set(0,5,-10);
+  var light = new THREE.AmbientLight(0x404040);
   scene.add(light);
   camera.position.set(3,4,10);
   function render(){
