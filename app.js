@@ -7,7 +7,7 @@
   var shape = [];
   geometry = new THREE.SphereGeometry(5, 20, 20);
   THREE.ImageUtils.crossOrigin = '';
-  var material = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('group.jpg',THREE.SphericalRefractionMapping) } );
+  var material = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('emoji-face.png',THREE.SphericalRefractionMapping) } );
   shape[0] = new THREE.Mesh(geometry, material);
   shape[0].position.set(0,5,0);
   scene.add(shape[0]);
